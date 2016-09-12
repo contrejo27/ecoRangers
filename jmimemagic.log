@@ -242,3 +242,125 @@ java.lang.NullPointerException
 	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
 	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
 	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2016-08-25 09:38:15,804 [main] ERROR stencyl.sw.Session - File 'plaf\version.txt' does not exist
+java.io.FileNotFoundException: File 'plaf\version.txt' does not exist
+	at org.apache.commons.io.FileUtils.openInputStream(FileUtils.java:299)
+	at org.apache.commons.io.FileUtils.readFileToString(FileUtils.java:1711)
+	at org.apache.commons.io.FileUtils.readFileToString(FileUtils.java:1748)
+	at stencyl.sw.Session.initVersionNumbers(Session.java:436)
+	at stencyl.sw.Session.init(Session.java:342)
+	at stencyl.sw.Session.instance(Session.java:223)
+	at stencyl.sw.util.Locations.getLanguageRoot(Locations.java:616)
+	at stencyl.sw.loc.LanguagePack.<init>(LanguagePack.java:116)
+	at stencyl.sw.loc.LanguagePack.get(LanguagePack.java:83)
+	at stencyl.sw.SW.<clinit>(SW.java:153)
+	at stencyl.sw.Launcher.main(Launcher.java:95)
+2016-08-25 09:38:15,812 [main] ERROR stencyl.sw.Session - File 'plaf\builddate.txt' does not exist
+java.io.FileNotFoundException: File 'plaf\builddate.txt' does not exist
+	at org.apache.commons.io.FileUtils.openInputStream(FileUtils.java:299)
+	at org.apache.commons.io.FileUtils.readFileToString(FileUtils.java:1711)
+	at org.apache.commons.io.FileUtils.readFileToString(FileUtils.java:1748)
+	at stencyl.sw.Session.initVersionNumbers(Session.java:447)
+	at stencyl.sw.Session.init(Session.java:342)
+	at stencyl.sw.Session.instance(Session.java:223)
+	at stencyl.sw.util.Locations.getLanguageRoot(Locations.java:616)
+	at stencyl.sw.loc.LanguagePack.<init>(LanguagePack.java:116)
+	at stencyl.sw.loc.LanguagePack.get(LanguagePack.java:83)
+	at stencyl.sw.SW.<clinit>(SW.java:153)
+	at stencyl.sw.Launcher.main(Launcher.java:95)
+2016-08-25 09:38:15,869 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-phrases.lang
+2016-08-25 09:38:15,870 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-errors.lang
+2016-08-25 09:38:15,870 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-menu.lang
+2016-08-25 09:38:15,871 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-welcome.lang
+2016-08-25 09:38:15,871 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-dashboard.lang
+2016-08-25 09:38:15,871 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-publish.lang
+2016-08-25 09:38:15,871 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-updater.lang
+2016-08-25 09:38:15,872 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-chat.lang
+2016-08-25 09:38:15,872 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-misc.lang
+2016-08-25 09:38:15,872 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-forge.lang
+2016-08-25 09:38:15,872 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-prefs.lang
+2016-08-25 09:38:15,872 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-creategame.lang
+2016-08-25 09:38:15,872 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-main.lang
+2016-08-25 09:38:15,873 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-blocks.lang
+2016-08-25 09:38:15,873 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-blockhelp.lang
+2016-08-25 09:38:15,873 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-events.lang
+2016-08-25 09:38:15,873 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-code.lang
+2016-08-25 09:38:15,873 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-attributes.lang
+2016-08-25 09:38:15,874 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-create.lang
+2016-08-25 09:38:15,874 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-byob.lang
+2016-08-25 09:38:15,874 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-actor-main.lang
+2016-08-25 09:38:15,874 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-actor-physics.lang
+2016-08-25 09:38:15,874 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-background.lang
+2016-08-25 09:38:15,874 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-behaviorchooser.lang
+2016-08-25 09:38:15,875 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-desktop.lang
+2016-08-25 09:38:15,875 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-font.lang
+2016-08-25 09:38:15,875 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-sound.lang
+2016-08-25 09:38:15,875 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-tileset.lang
+2016-08-25 09:38:15,875 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-preloader.lang
+2016-08-25 09:38:15,875 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-mobile.lang
+2016-08-25 09:38:15,876 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-groups.lang
+2016-08-25 09:38:15,876 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-attributes.lang
+2016-08-25 09:38:15,876 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-input.lang
+2016-08-25 09:38:15,876 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-animation.lang
+2016-08-25 09:38:15,876 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-scene-main.lang
+2016-08-25 09:38:15,876 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-scene-create.lang
+2016-08-25 09:38:15,877 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-scene-tools.lang
+2016-08-25 09:38:15,877 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-phrases.lang
+2016-08-25 09:38:15,877 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-errors.lang
+2016-08-25 09:38:15,877 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-menu.lang
+2016-08-25 09:38:15,877 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-welcome.lang
+2016-08-25 09:38:15,878 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-dashboard.lang
+2016-08-25 09:38:15,878 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-publish.lang
+2016-08-25 09:38:15,878 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-updater.lang
+2016-08-25 09:38:15,878 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-chat.lang
+2016-08-25 09:38:15,878 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-misc.lang
+2016-08-25 09:38:15,878 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-forge.lang
+2016-08-25 09:38:15,879 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-prefs.lang
+2016-08-25 09:38:15,879 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-creategame.lang
+2016-08-25 09:38:15,879 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-main.lang
+2016-08-25 09:38:15,879 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-blocks.lang
+2016-08-25 09:38:15,879 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-blockhelp.lang
+2016-08-25 09:38:15,879 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-events.lang
+2016-08-25 09:38:15,879 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-code.lang
+2016-08-25 09:38:15,879 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-attributes.lang
+2016-08-25 09:38:15,879 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-create.lang
+2016-08-25 09:38:15,879 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-byob.lang
+2016-08-25 09:38:15,880 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-actor-main.lang
+2016-08-25 09:38:15,880 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-actor-physics.lang
+2016-08-25 09:38:15,880 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-background.lang
+2016-08-25 09:38:15,881 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-behaviorchooser.lang
+2016-08-25 09:38:15,881 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-desktop.lang
+2016-08-25 09:38:15,881 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-font.lang
+2016-08-25 09:38:15,881 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-sound.lang
+2016-08-25 09:38:15,881 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-tileset.lang
+2016-08-25 09:38:15,881 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-preloader.lang
+2016-08-25 09:38:15,882 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-mobile.lang
+2016-08-25 09:38:15,882 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-groups.lang
+2016-08-25 09:38:15,882 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-attributes.lang
+2016-08-25 09:38:15,882 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-input.lang
+2016-08-25 09:38:15,882 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-animation.lang
+2016-08-25 09:38:15,882 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-scene-main.lang
+2016-08-25 09:38:15,883 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-scene-create.lang
+2016-08-25 09:38:15,883 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-scene-tools.lang
+2016-08-25 09:38:16,033 [AWT-EventQueue-0] ERROR stencyl.sw.SW - Could not parse build number: Unknown
+2016-08-25 09:38:16,481 [AWT-EventQueue-0] ERROR root - Unexpected problem on thread AWT-EventQueue-0: null
+java.lang.NullPointerException
+	at stencyl.sw.ext.ExtensionDependencyManager.load(ExtensionDependencyManager.java:43)
+	at stencyl.sw.SW.initExtensions(SW.java:827)
+	at stencyl.sw.SW.showWindow(SW.java:696)
+	at stencyl.sw.SW.access$100(SW.java:145)
+	at stencyl.sw.SW$1.run(SW.java:242)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:726)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
